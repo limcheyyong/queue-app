@@ -7,7 +7,6 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
 interface Player {
   id: number;
   name: string;
@@ -30,6 +29,7 @@ interface Court {
 })
 export class AppComponent {
   title = 'queque-app';
+
   players: Player[] = [
     // {
     //   id: 1,
